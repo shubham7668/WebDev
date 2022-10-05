@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0" />
+	<title>404 NotFound</title>
+</head>
+
+<link rel="stylesheet" href="./style.css"/>
+
+<body onload="stopAnimation()">
+
+	<section id="loading-animation">
+		<div class="wave wave1"></div>
+		<div class="wave wave2"></div>
+		<div class="wave wave3"></div>
+		<div class="wave wave4"></div>
+	</section>
+
+	<div id="container">
+
+		<div id="header">
+			<div id="theHive">The Hive</div>
+			<nav id="nav">
+				<ul>
+					<a href="#home">Home</a>
+					<a href="#aboutus">About Us</a>
+					<a href="#contactus">Contact</a>
+				</ul>
+			</nav>
+		</div>
+
+		<section id="home">
+			
+
+
+			<div class="login-page">
+				<div class="login-html">
+					<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+					<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+					<div class="login-form">
+						<div class="sign-in-info">
+							<div class="group">
+								<label for="lemail" class="label">Email</label>
+								<input id="lemail" type="text" class="input">
+							</div>
+							<div class="group">
+								<label for="lpassword" class="label">Password</label>
+								<input id="lpassword" type="password" class="input" data-type="password">
+							</div>
+							<!-- <div class="group">
+								<input id="check" type="checkbox" class="check" checked>
+								<label for="check"><span class="icon"></span> Keep me Signed in</label>
+							</div> -->
+							<div class="group">
+								<button class="button" id="lbutton">Login</button>
+								<!-- <input type="submit" class="button" value="Sign In"> -->
+							</div>
+							<div class="hr"></div>
+							<div class="foot-lnk">
+								<a id="resetPassword" href="#forgot">Forgot Password?</a>
+							</div>
+						</div>
+						<div class="sign-up-info">
+							<div class="group">
+								<label for="full-name" class="label">Full Name</label>
+								<input id="full-name" type="text" class="input">
+							</div>
+							<div class="group">
+								<label for="semail" class="label">Email</label>
+								<input id="semail" type="text" class="input">
+							</div>
+							<div class="group">
+								<label for="spassword" class="label">Password</label>
+								<input id="spassword" type="password" class="input" data-type="password">
+							</div>
+							<div class="group">
+								<label for="scpassword" class="label">Repeat Password</label>
+								<input id="scpassword" type="password" class="input" data-type="password">
+							</div>
+							<div class="group">
+								
+								<button class="button" id="sbutton">Signup</button>
+							</div>
+							<div class="hr"></div>
+							<div class="foot-lnk">
+								<label for="tab-1">Already Member?</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+		<section id="aboutus">
+			<div id="about">
+				Hi
+			</div>
+		</section>
+		<section id="contactus">
+			<div class="contactText">
+				<h1>Contact Us</h1>
+			</div>
+			<div id="dm">
+				<form action="#">
+					<input type="text" name="name" placeholder="Name" required>
+					<input type="email" name="email" placeholder="Email" required>
+					<textarea type="text" name="message" placeholder="Message" required rows="5"></textarea>
+					<button id="send" type="submit">Send</button>
+				</form>
+			</div>
+		</section>
+	</div>
+		
+</body>
+ <!-- The core Firebase JS SDK is always required and must be listed first -->
+ <script src="/__/firebase/6.2.4/firebase-app.js"></script>
+ <script src="/__/firebase/6.2.4/firebase-auth.js"></script>
+
+ <!-- TODO: Add SDKs for Firebase products that you want to use
+	 https://firebase.google.com/docs/web/setup#reserved-urls -->
+
+ <!-- Initialize Firebase -->
+
+ <script src="https://www.gstatic.com/firebasejs/3.6.5/firebase.js"></script>
+ <script src="/__/firebase/init.js"></script>
+ <script src="./js/home.js"></script>
+<script src="./js/script.js"></script>
+<!-- <script src="./js/firebaseUtil.js"></script> -->
+
+</html>
+ 

@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&family=Odibee+Sans&display=swap');
+#header{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    /* background-color: rgb(92, 97, 0); */
+    position: fixed;
+}
+nav ul a{
+    display: inline-block;
+    padding-left: 10px;
+    color: #ffffff;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    text-decoration: none;
+}
+nav ul a:hover{
+    color: rgb(255, 162, 0);
+}
+nav ul a.active{
+    color: rgb(255, 162, 0);
+}
+#theHive{
+    font-family: 'Odibee Sans', cursive;
+    font-size: 25px;
+    cursor:default
+}
+#userForm{
+    background-color: rgb(211, 211, 135);
+    padding: 10px 20px;
+    color: #ffffff ;
+    z-index: 10;
+    transform: translate(-50%);
+    /* display: none; */
+}
+
+#container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+#home, #aboutus, #contactus {
+    display: flex;
+    flex: none;
+    height: 100%;
+    width: 100%;
+    scroll-snap-align: start;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#aboutus{
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+#home{
+    background-image: url("images/flowers.jpeg");
+}
+
+#contactus{
+    background-image: url("images/hive.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px;
+}
+
+#contactus{
+    background-color: rgb(0, 0, 0);
+    font-size: 2vw;
+    color: #ffffff;
+}
+
+.contactText{
+    width: 12vw;
+    height: 100%;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 900;
+}
+
+#dm{
+    border: 0;
+    border-radius: 8px;
+    padding: 10px;
+    width: 35vw;
+    margin: auto;
+    bottom: 10px;
+
+    
+}
+input{
+    outline: none;
+    border: 0;
+    width: 50%;
+    border-radius: 5px;
+    padding: 2px;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 900;
+    position: relative;
+    margin-bottom: 10px;
+}
+::placeholder{
+    text-align: left;
+}
+
+textarea{
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    padding: 2px;
+    width: 100%;
+    resize: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+  
+#send{
+    border: 0;
+    border-radius: 5px;
+    padding: 2px 3px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 900;
+}
+
+/* custom scrollbar
+
+/* width */
+::-webkit-scrollbar {
+    height: 4px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+  background: #050505; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #39FF14; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+#signin{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 900;
+    border: 0;
+    border-radius: 8px;
+    align-items: center;
+    padding: 5px 7px;
+    background-color: #ffffff;
+    opacity: 0.4;
+    height: 25px;
+    display: flex;
+    transform: translate(50vw,75vh);
+}
+
+#signin:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+#loading-animation{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    overflow: hidden;
+}
+
+section .wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(images/wave.png);
+    background-size: 1000px 100px;
+}
+
+section .wave.wave1{
+    animation: load1 8s linear infinite;
+    z-index: 99999;
+    opacity: 1;
+    animation-delay: 0s;
+    bottom: 0;
+}
+
+section .wave.wave2{
+    animation: load2 5s linear infinite;
+    z-index: 99998;
+    opacity: 0.5;
+    animation-delay: -5s;
+    bottom: 10px;
+}
+
+section .wave.wave3{
+    animation: load1 7s linear infinite;
+    z-index: 99997;
+    opacity: 0.3;
+    animation-delay: -2s;
+    bottom: 15px;
+}
+
+section .wave.wave4{
+    animation: load2 4s linear infinite;
+    z-index: 99996;
+    opacity: 0.7;
+    animation-delay: -5s;
+    bottom: 20px;
+}
+
+@keyframes load1{
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
+}
+
+@keyframes load2{
+    100%{
+        background-position-x: 0;
+    }
+    0%{
+        background-position-x: 1000px;
+    }
+}
+
+
+*,:after,:before{box-sizing:border-box}
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearfix:after{clear:both;display:block}
+a{color:inherit;text-decoration:none}
+
+.login-page{
+	width:100%;
+	margin:auto;
+	max-width:35vw;
+	min-height: 85vh;
+	position:relative;
+	background: transparent;
+    opacity: 0.8;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+.login-html{
+	width:100%;
+	height:100%;
+	position:absolute;
+	padding:20px 30px 20px;
+	background:rgba(111, 109, 73, 0.9);
+    border-radius: 8px;
+}
+.login-html .sign-in-info,
+.login-html .sign-up-info{
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	position:absolute;
+	transform:rotateY(180deg);
+	backface-visibility:hidden;    
+	transition:all .7s linear;
+    overflow-y: hidden;
+}
+.login-html .sign-in,
+.login-html .sign-up,
+.login-form .group .check{
+	display:none;
+}
+.login-html .tab,
+.login-form .group .label,
+.login-form .group .button{
+	text-transform:uppercase;
+}
+.login-html .tab{
+	font-size: 20px;
+    font-weight: 700;
+	margin-right:15px;
+	padding-bottom:5px;
+	margin:0 15px 10px 0;
+	display:inline-block;
+	border-bottom:2px solid transparent;
+}
+.login-html .sign-in:checked + .tab,
+.login-html .sign-up:checked + .tab{
+	color:#fff;
+	border-color:#c98e4b;
+}
+.login-form{
+	min-height:345px;
+	position:relative;
+	perspective:1000px;
+	transform-style:preserve-3d;
+}
+.login-form .group{
+	margin-bottom:15px;
+}
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group .button{
+	width:100%;
+	color:#fff;
+	display:block;
+}
+.login-form .group .input,
+.login-form .group .button{
+	border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:rgba(255,255,255,.1);
+}
+.login-form .group input[data-type="password"]{
+	text-security:circle;
+	-webkit-text-security:circle;
+}
+.login-form .group .label{
+	color:#aaa;
+	font-size:12px;
+}
+.login-form .group .button{
+	background:#1161ee;
+}
+.login-form .group label .icon{
+	width:15px;
+	height:15px;
+	border-radius:2px;
+	position:relative;
+	display:inline-block;
+	background:rgba(255,255,255,.1);
+}
+.login-form .group label .icon:before,
+.login-form .group label .icon:after{
+	content:'';
+	width:10px;
+	height:2px;
+	background:#fff;
+	position:absolute;
+	transition:all .2s ease-in-out 0s;
+}
+.login-form .group label .icon:before{
+	left:3px;
+	width:5px;
+	bottom:6px;
+	transform:scale(0) rotate(0);
+}
+.login-form .group label .icon:after{
+	top:6px;
+	right:0;
+	transform:scale(0) rotate(0);
+}
+.login-form .group .check:checked + label{
+	color:#fff;
+}
+.login-form .group .check:checked + label .icon{
+	background:#1161ee;
+}
+.login-form .group .check:checked + label .icon:before{
+	transform:scale(1) rotate(45deg);
+}
+.login-form .group .check:checked + label .icon:after{
+	transform:scale(1) rotate(-45deg);
+}
+.login-html .sign-in:checked + .tab + .sign-up + .tab + .login-form .sign-in-info{
+	transform:rotate(0);
+}
+.login-html .sign-up:checked + .tab + .login-form .sign-up-info{
+	transform:rotate(0);
+}
+
+.hr{
+	height:2px;
+	margin:60px 0 50px 0;
+	background:rgba(255,255,255,.2);
+}
+.foot-lnk{
+	text-align:center;
+}
+
+
+body{
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 100vh;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
