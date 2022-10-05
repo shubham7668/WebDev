@@ -4,7 +4,7 @@
 
 2)Contribute in web development projects.   
 
-3)Add snapshots or **Deployed link** of working project.  
+3)Project should have deployment link.      
 
 4)Make sure to follow [Shubham](https://github.com/shubham7668) & star the repo.     
   
