@@ -6,7 +6,7 @@
 
 3)Add snapshots or **Deployed link** of working project.  
 
-4)Make sure follow [Shubham](https://github.com/shubham7668) & star the repo.     
+4)Make sure to follow [Shubham](https://github.com/shubham7668) & star the repo.     
   
 NOTE ⚠ : Dont push non working projects we will thoroughly check.
 
