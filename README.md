@@ -2,7 +2,7 @@
 
 **1)NO DSA CODES WILL BE ALLOWED**  
 
-2)contribute in web development projects.   
+2)Contribute in web development projects.   
 
 3)Add snapshots or **Deployed link** of working project.  
 
