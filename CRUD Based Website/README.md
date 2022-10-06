@@ -1,3 +1,3 @@
 ## CRUD Based Website
 
-Hosted Link : https://test-f45b5.web.app/
+Hosted Link : https://crud-five-liart.vercel.app/
