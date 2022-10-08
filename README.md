@@ -8,7 +8,7 @@
 NOTE ⚠ : Dont push non working projects we will thoroughly check.
 
 ## How to add  
-1)Project should be added at 'project/<project-name>' 
+1)Project should be added at project/project-name/files
 
 ## Welcome to Hacktober Fest 
 
