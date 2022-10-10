@@ -31,6 +31,8 @@ NOTE ⚠ : Dont push non working projects we will thoroughly check.
 
 • For more info headover to https://hacktoberfest.com/participation/
 
+## Contributors
+
 <!-- readme: contributors -start -->
 <table>
 <tr>
