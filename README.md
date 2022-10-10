@@ -1,8 +1,7 @@
 ## Rules  
 
-**1)NO DSA CODES WILL BE ALLOWED**  
-2)Contribute in web development projects.   
-**3)Project should have deployment link. [MUST]**      
+1)Contribute in web development projects.     
+**2)Project should have deployment link. [MUST]**  
 4)Make sure to follow [Shubham](https://github.com/shubham7668) & star the repo.     
   
 NOTE ⚠ : Dont push non working projects we will thoroughly check.
