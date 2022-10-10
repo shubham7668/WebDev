@@ -1,14 +1,14 @@
 # Description
 
-Please include a summary of the change and which issue is fixed. List any dependencies that are required for this change.
+_Give a summary of the change that you have made_ <br />
 
 # Link issue
 
-Please link issue for which you have pushed your pr.
+Fixes #[ISSUENO]
 
 # Deployed Link
 
-Please provide deployed link of your project.
+_Please provide deployed link of your project._
 
 ## Type of change
 
