@@ -1,0 +1,72 @@
+@media (max-width:947px){
+   
+  .max-width{
+      padding:0 50px;
+  }
+   .menu-btn{
+   display: block;
+   z-index: 999;
+}
+.menu-btn i.active:before{
+    content:"\f00d";
+}
+  .navbar .menu{
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      left: -100%;
+      top: 0px;
+      background: black;
+      text-align: center;
+      padding-top: 80px;
+      transition: all 3s ease;
+  }
+  .navbar .menu.active{
+      left: 0;
+  }
+  .navbar .menu li {
+       display: block;
+  }
+  .navbar .menu li a{
+      display: inline-block;
+      margin: 20px 0;
+      font-size: 25px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .home .home-content .text-2{
+   font-size: 75px;
+   font-weight: 600;
+   margin-left: -3px;
+   
+}
+.home .home-content .text-3{
+   font-size: 40px;
+   margin: 5px 0;} */
