@@ -101,12 +101,27 @@ NOTE ⚠ : Dont push non working projects we will thoroughly check.
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/Sukhman-01">
+            <img src="https://avatars.githubusercontent.com/u/74138570?v=4" width="100;" alt="Sukhman-01"/>
+            <br />
+            <sub><b>Sukhman Singh</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/ajaygitt">
+            <img src="https://avatars.githubusercontent.com/u/76237868?v=4" width="100;" alt="ajaygitt"/>
+            <br />
+            <sub><b>Ajay Pradeep</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/Akshat2Jain">
             <img src="https://avatars.githubusercontent.com/u/101265586?v=4" width="100;" alt="Akshat2Jain"/>
             <br />
             <sub><b>Akshat Jain</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/mayank-del">
             <img src="https://avatars.githubusercontent.com/u/82238106?v=4" width="100;" alt="mayank-del"/>
