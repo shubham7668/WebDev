@@ -72,13 +72,20 @@ NOTE ⚠ : Dont push non working projects we will thoroughly check.
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/ElvinPero">
+            <img src="https://avatars.githubusercontent.com/u/101408574?v=4" width="100;" alt="ElvinPero"/>
+            <br />
+            <sub><b>ELVIN Pero</b></sub>
+        </a>
+    </td></tr>
+<tr>
+    <td align="center">
         <a href="https://github.com/Aman-kinger">
             <img src="https://avatars.githubusercontent.com/u/73296791?v=4" width="100;" alt="Aman-kinger"/>
             <br />
             <sub><b>Null</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/impranavtg">
             <img src="https://avatars.githubusercontent.com/u/83161133?v=4" width="100;" alt="impranavtg"/>
