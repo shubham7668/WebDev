@@ -25,7 +25,8 @@ jobs:
           PRNUM: ${{ github.event.pull_request.number }}
         run: |
           gh pr edit $PRNUM --add-label "in-review"
-          gh pr edit $PRNUM --remove-label "hacktoberfest"
+          gh pr edit $PRNUM --add-label "hacktoberfest"
+          gh pr edit $PRNUM --remove-label "no-linked-issue"
           
       - name: PR has no valid Issue
         if: ${{ steps.validator.outputs.valid == 0 }}
