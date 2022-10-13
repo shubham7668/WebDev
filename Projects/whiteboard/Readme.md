@@ -5,4 +5,6 @@
 ### Deploy Link
     https://mayank-del.github.io/whiteboard-app-vanillaJS/
 
-### Screenshots 
+### Screenshots
+
+![Screenshot (187)](https://user-images.githubusercontent.com/82238106/195640629-87ff725c-d317-4284-8ccc-6c6bd874c7fd.png)
