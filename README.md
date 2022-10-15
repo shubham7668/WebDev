@@ -54,21 +54,21 @@ NOTE ⚠ : Dont push non working projects we will thoroughly check.
         <a href="https://github.com/ankitb2023">
             <img src="https://avatars.githubusercontent.com/u/105578036?v=4" width="100;" alt="ankitb2023"/>
             <br />
-            <sub><b>Null</b></sub>
+            <sub><b>ankitb2023</b></sub>
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/mayank-del">
             <img src="https://avatars.githubusercontent.com/u/82238106?v=4" width="100;" alt="mayank-del"/>
             <br />
-            <sub><b>Null</b></sub>
+            <sub><b>Mayank-del</b></sub>
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/Anuragsurya318">
             <img src="https://avatars.githubusercontent.com/u/91601354?v=4" width="100;" alt="Anuragsurya318"/>
             <br />
-            <sub><b>Null</b></sub>
+            <sub><b>Anuragsurya318</b></sub>
         </a>
     </td>
     <td align="center">
@@ -83,7 +83,7 @@ NOTE ⚠ : Dont push non working projects we will thoroughly check.
         <a href="https://github.com/AkashSharma001">
             <img src="https://avatars.githubusercontent.com/u/97700368?v=4" width="100;" alt="AkashSharma001"/>
             <br />
-            <sub><b>Null</b></sub>
+            <sub><b>AkashSharma001</b></sub>
         </a>
     </td>
     <td align="center">
@@ -97,7 +97,7 @@ NOTE ⚠ : Dont push non working projects we will thoroughly check.
         <a href="https://github.com/Aman-kinger">
             <img src="https://avatars.githubusercontent.com/u/73296791?v=4" width="100;" alt="Aman-kinger"/>
             <br />
-            <sub><b>Null</b></sub>
+            <sub><b>Aman-kinger</b></sub>
         </a>
     </td>
     <td align="center">
