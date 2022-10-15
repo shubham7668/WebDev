@@ -54,7 +54,7 @@ NOTE ⚠ : Dont push non working projects we will thoroughly check.
         <a href="https://github.com/ankitb2023">
             <img src="https://avatars.githubusercontent.com/u/105578036?v=4" width="100;" alt="ankitb2023"/>
             <br />
-            <sub><b>ankitb2023</b></sub>
+            <sub><b>Ankitb2023</b></sub>
         </a>
     </td>
     <td align="center">
