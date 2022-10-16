@@ -101,6 +101,13 @@ NOTE ⚠ : Dont push non working projects we will thoroughly check.
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/Deepanshu1008">
+            <img src="https://avatars.githubusercontent.com/u/89475845?v=4" width="100;" alt="Deepanshu1008"/>
+            <br />
+            <sub><b>Deepanshu Gupta</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/KunalAggarwal483">
             <img src="https://avatars.githubusercontent.com/u/66832364?v=4" width="100;" alt="KunalAggarwal483"/>
             <br />
@@ -113,15 +120,15 @@ NOTE ⚠ : Dont push non working projects we will thoroughly check.
             <br />
             <sub><b>Pranav Tyagi</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/ritviz344">
             <img src="https://avatars.githubusercontent.com/u/55100068?v=4" width="100;" alt="ritviz344"/>
             <br />
             <sub><b>REVV</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/Sukhman-01">
             <img src="https://avatars.githubusercontent.com/u/74138570?v=4" width="100;" alt="Sukhman-01"/>
