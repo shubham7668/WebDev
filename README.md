@@ -87,6 +87,13 @@ NOTE ⚠ : Dont push non working projects we will thoroughly check.
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/RaginaPhalangae">
+            <img src="https://avatars.githubusercontent.com/u/115471842?v=4" width="100;" alt="RaginaPhalangae"/>
+            <br />
+            <sub><b>Null</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/ElvinPero">
             <img src="https://avatars.githubusercontent.com/u/101408574?v=4" width="100;" alt="ElvinPero"/>
             <br />
@@ -113,27 +120,20 @@ NOTE ⚠ : Dont push non working projects we will thoroughly check.
             <br />
             <sub><b>Kunal Aggarwal</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/impranavtg">
             <img src="https://avatars.githubusercontent.com/u/83161133?v=4" width="100;" alt="impranavtg"/>
             <br />
             <sub><b>Pranav Tyagi</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/ritviz344">
             <img src="https://avatars.githubusercontent.com/u/55100068?v=4" width="100;" alt="ritviz344"/>
             <br />
             <sub><b>REVV</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/RaginaPhalangae">
-            <img src="https://avatars.githubusercontent.com/u/115471842?v=4" width="100;" alt="RaginaPhalangae"/>
-            <br />
-            <sub><b>Null</b></sub>
         </a>
     </td>
     <td align="center">
