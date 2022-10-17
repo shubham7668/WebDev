@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gallery1.css">
+    <link rel="stylesheet" href="gallery2.css">
+    <script src="gallery.js"></script>
+    <title>Gallery</title>
+</head>
+<body>
+    <header class="sticky">
+        <a href="#" class="logo">Vehicles<span>.</span></a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+
+    </header>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+        function toggleMenu(){
+            const menuToggle = document.querySelector('.menuToggle');
+            const navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+    </script>
+    <div class="full-img" id="fullimgbox">
+        <img src="img1.jpg" id="fullimg">
+
+    </div>
+    <div class="img-gallary">
+       <a href="Audi.jpg" data-lightbox="mygallary" data-title="Audi"><img src="Audi.jpg"></a> 
+        <a href="Bentley.jpg" data-lightbox="mygallary" data-title="Bentley"><img src="Bentley.jpg"></a>
+        <a href="bugatti.jpg" data-lightbox="mygallary" data-title="Bugatti"><img src="bugatti.jpg"></a>
+        <a href="Chevrolet.jpg" data-lightbox="mygallary" data-title="Chevrolet"><img src="Chevrolet.jpg"></a>
+        <a href="ford.jpg" data-lightbox="mygallary" data-title="Ford"><img src="ford.jpg"></a>
+        <a href="Jaguar.jpg" data-lightbox="mygallary" data-title="Jaguar"><img src="Jaguar.jpg"></a>
+        <a href="Jeep.webp" data-lightbox="mygallary" data-title="Jeep"><img src="Jeep.webp"></a>
+        <a href="Land-Rover.jpg" data-lightbox="mygallary" data-title="Land-Roveri"><img src="Land-Rover.jpg"></a>
+        <a href="Lexus.jpg" data-lightbox="mygallary" data-title="Lexus."><img src="Lexus.jpg"></a>
+        <a href="mercedes-Benz.jpg" data-lightbox="mygallary" data-title="Mercedes-Benz"><img src="mercedes-Benz.jpg"></a>
+        <a href="nissan.jpg" data-lightbox="mygallary" data-title="Nissan"><img src="nissan.jpg"></a>
+        <a href="PORSCHE.jpg" data-lightbox="mygallary" data-title="Porsche"><img src="PORSCHE.jpg"></a>
+        <a href="rolls-royce.jpg" data-lightbox="mygallary" data-title="Rolls-royce"><img src="rolls-royce.jpg"></a>
+        <a href="Volvo-car.jpg" data-lightbox="mygallary" data-title="Volvo"><img src="Volvo-car.jpg"></a>
+        <a href="Honda.jpg" data-lightbox="mygallary" data-title="Honda"><img src="Honda.jpg"></a>
+        <a href="Fiat.png" data-lightbox="mygallary" data-title="Fiat"><img src="Fiat.png"></a>
+        <a href="hello.jpg" data-lightbox="mygallary" data-title=""><img src="hello.jpg"></a>
+        <!-- <a href="Guwahati4.jpg" data-lightbox="mygallary" data-title="Guwahati-Guwahati City View"><img src="Guwahati4.jpg"></a> -->
+        
+    
+    </div>
+</script>
+</body>
+</html>

@@ -1,0 +1,237 @@
+* {
+    margin : 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background: #030d16;
+}
+/*
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 8px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+header.sticky
+{
+background: #fff;
+padding: 10px 3px;
+box-shadow: 0 5px 20px rgb(0, 0,0, 0.05);
+}
+
+header .logo
+{
+    color: #fff;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+header.sticky .logo{
+    color: #111;
+}
+header .logo span
+{
+    color: #ff0157;
+}
+header .navigation
+{
+    position: relative;
+    display: flex;
+}
+header .navigation li
+{
+    list-style: none;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+header .navigation li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+}
+header.sticky .navigation li a
+{
+color: #111;
+}
+header.sticky .navigation li a:hover
+{ color: #ff0157;} */
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* padding: 40px 100px; */
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+header.sticky
+{
+background: #fff;
+/* padding: 10px 100px; */
+box-shadow: 0 5px 20px rgb(0, 0,0, 0.05);
+}
+
+header .logo
+{
+    color: white;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+header.sticky .logo{
+    color: black;
+}
+header .logo span
+{
+    color: #ff0157;
+}
+header.sticky .logo span{
+    color: #ff0157;
+}
+header .navigation
+{
+    position: relative;
+    display: flex;
+}
+header .navigation li
+{
+    list-style: none;
+    /* margin-left: 30px; */
+    margin-right: 30px;
+}
+header .navigation li a
+{
+    text-decoration: none;
+    color: #ff0157;
+    font-weight: 300;
+}
+header .navigation li a:hover
+{
+    color: #fff;
+}
+header.sticky .navigation li a
+{
+color: #111;
+}
+header.sticky .navigation li a:hover
+{ color: #ff0157;}
+.img-gallary{
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 30px;
+    
+}
+.img-gallary img{
+    width: 100%;
+    cursor: pointer;
+    transition: 1s;
+}
+.img-gallary img:hover{
+    transform: scale(0.8) rotate(-15deg);
+    border-radius: 20px;
+    box-shadow: 0 32px 7px rgba(68,77,136,0.2);
+
+}
+.full-img{
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.9) ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+.full-img img{
+   width: 90%; 
+   max-width: 500px;
+}
+.full-img span{
+    position: absolute;
+    top: 12%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+@media(max-width:998px) {
+    html {
+        font-size: 50%;
+    }
+
+    header,
+    header .sticky {
+        display: 10px 20px;
+    }
+
+    header .navigation {
+        display: none;
+    }
+
+    header .navigation.active {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 60px;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: white;
+        line-height: 50px;
+
+    }
+
+    header .navigation li {
+        margin-left: 0;
+
+    }
+
+    header .navigation li a {
+        /* text-decoration: none; */
+        color: rgb(0, 0, 0);
+        font-weight: 500;
+        font-size: 2.3rem;
+
+    }
+
+
+    .menuToggle {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background: url(menu.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .menuToggle.active {
+        background: url(close.png);
+        background-size: 25px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    header.sticky .menuToggle {
+        filter: invert(1);
+    }
+}
