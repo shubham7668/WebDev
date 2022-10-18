@@ -58,6 +58,13 @@ NOTE ⚠ : Dont push non working projects we will thoroughly check.
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/udit9876gupta">
+            <img src="https://avatars.githubusercontent.com/u/68100794?v=4" width="100;" alt="udit9876gupta"/>
+            <br />
+            <sub><b>Udit Kumar Gupta</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/mayank-del">
             <img src="https://avatars.githubusercontent.com/u/82238106?v=4" width="100;" alt="mayank-del"/>
             <br />
@@ -69,13 +76,6 @@ NOTE ⚠ : Dont push non working projects we will thoroughly check.
             <img src="https://avatars.githubusercontent.com/u/91601354?v=4" width="100;" alt="Anuragsurya318"/>
             <br />
             <sub><b>Anuragsurya318</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/udit9876gupta">
-            <img src="https://avatars.githubusercontent.com/u/68100794?v=4" width="100;" alt="udit9876gupta"/>
-            <br />
-            <sub><b>Udit Kumar Gupta</b></sub>
         </a>
     </td></tr>
 <tr>
