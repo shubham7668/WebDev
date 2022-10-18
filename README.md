@@ -51,17 +51,17 @@ NOTE ⚠ : Dont push non working projects we will thoroughly check.
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/ankitb2023">
-            <img src="https://avatars.githubusercontent.com/u/105578036?v=4" width="100;" alt="ankitb2023"/>
-            <br />
-            <sub><b>Ankitb2023</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/udit9876gupta">
             <img src="https://avatars.githubusercontent.com/u/68100794?v=4" width="100;" alt="udit9876gupta"/>
             <br />
             <sub><b>Udit Kumar Gupta</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/ankitb2023">
+            <img src="https://avatars.githubusercontent.com/u/105578036?v=4" width="100;" alt="ankitb2023"/>
+            <br />
+            <sub><b>Ankitb2023</b></sub>
         </a>
     </td>
     <td align="center">
