@@ -90,7 +90,7 @@ NOTE ⚠ : Dont push non working projects we will thoroughly check.
         <a href="https://github.com/RaginaPhalangae">
             <img src="https://avatars.githubusercontent.com/u/115471842?v=4" width="100;" alt="RaginaPhalangae"/>
             <br />
-            <sub><b>Null</b></sub>
+            <sub><b>Ragina Phalangae</b></sub>
         </a>
     </td>
     <td align="center">
