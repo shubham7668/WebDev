@@ -1,10 +1,10 @@
 # Description
 
-_Give a summary of the change that you have made_ <br />
+_Give a summary of the change that you have made_ 
 
 # Link issue
 
-Fixes #[ISSUENO]  _(Mention your pull req otherwise bot will mark this pr as invalid)_
+Fixes #[ISSUENO]  _(Mention your issue number otherwise bot will mark this pr as invalid)_
 
 # Deployed Link
 
