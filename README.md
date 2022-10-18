@@ -72,13 +72,20 @@ NOTE ⚠ : Dont push non working projects we will thoroughly check.
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/udit9876gupta">
+            <img src="https://avatars.githubusercontent.com/u/68100794?v=4" width="100;" alt="udit9876gupta"/>
+            <br />
+            <sub><b>Udit Kumar Gupta</b></sub>
+        </a>
+    </td></tr>
+<tr>
+    <td align="center">
         <a href="https://github.com/Yatndeep">
             <img src="https://avatars.githubusercontent.com/u/82487351?v=4" width="100;" alt="Yatndeep"/>
             <br />
             <sub><b>Yatndeep Dubey</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/AkashSharma001">
             <img src="https://avatars.githubusercontent.com/u/97700368?v=4" width="100;" alt="AkashSharma001"/>
@@ -113,15 +120,15 @@ NOTE ⚠ : Dont push non working projects we will thoroughly check.
             <br />
             <sub><b>Deepanshu Gupta</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/KunalAggarwal483">
             <img src="https://avatars.githubusercontent.com/u/66832364?v=4" width="100;" alt="KunalAggarwal483"/>
             <br />
             <sub><b>Kunal Aggarwal</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/impranavtg">
             <img src="https://avatars.githubusercontent.com/u/83161133?v=4" width="100;" alt="impranavtg"/>
