@@ -1,0 +1,339 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-weight: 300;
+    color: #111;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1.4rem;
+}
+
+body {
+    min-height: 100rem;
+    background-color: rgb(217, 237, 240);
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(kenny-eliason-orGJcWVI6js-unsplash.jpg);
+    background-size: cover;
+}
+
+.banner .content {
+    max-width: 90rem;
+    text-align: center;
+}
+
+.banner .content h2 {
+    font-size: 8rem;
+    color: #fff;
+}
+
+.banner .content p {
+    font-size: 1.8rem;
+    color: #fff;
+
+}
+
+.btn {
+    font-size: 1.8rem;
+    color: #fff;
+    background: #34d2fa;
+    display: inline-block;
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .4rem;
+}
+
+.btn:hover {
+    letter-spacing: .9rem;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 4rem 10rem;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+header.sticky {
+    background: #fff;
+    padding: 1rem 10rem;
+    box-shadow: 0 0.5rem 2rem rgb(0, 0, 0, 0.05);
+}
+
+header .logo {
+    color: #fff;
+    font-weight: 700;
+    font-size: 3.8rem;
+    text-decoration: none;
+}
+
+header.sticky .logo {
+    color: rgb(17, 17, 17);
+}
+
+header .logo span {
+    color: #34d2fa;
+}
+
+header .navigation {
+    position: relative;
+    display: flex;
+}
+
+header .navigation li {
+    list-style: none;
+    margin-left: 3.6rem;
+    font-size: 1.8rem;
+}
+
+header .navigation li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+}
+
+header .navigation li a:hover {
+    color: #34d2fa;
+}
+
+header.sticky .navigation li a {
+    color: rgb(17, 17, 17);
+}
+
+header.sticky .navigation li a:hover {
+    color: #34d2fa;
+}
+
+.titleText {
+    color: #111;
+    font-size: 3rem;
+    font-weight: 300;
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.titleText span {
+    color: #34d2fa;
+    font-weight: 700;
+    font-size: 3.2rem;
+    /* text-align: center; */
+}
+
+.contact {
+    /* background: url(home.jpeg); */
+    /* background-size: cover; */
+    align-items: center;
+
+}
+
+.contactform {
+    padding: 7.5rem 5rem;
+    background: rgb(240, 241, 241);
+    box-shadow: 0 1.5rem 5rem rgba(0, 0, 0, 0.1);
+    max-width: 50rem;
+    margin-top: 5rem;
+    margin-left: 39rem;
+    /* margin-right: 39rem; */
+    border-radius: 1rem;
+    /* align-items: center; */
+}
+
+.contactform h3 {
+    color: #111;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.contactform .inputbox {
+    position: relative;
+    width: 100%;
+    margin-bottom: 2rem;
+    border-radius: 5rem;
+}
+
+.contactform .inputbox input {
+    width: 100%;
+    border: .1rem solid #555;
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.contactform .inputbox input[type="submit"] {
+    font-size: 1.8rem;
+    color: #fff;
+    background: #34d2fa;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .4rem;
+    transition: 0.5s;
+    max-width: 15rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.copyright {
+    padding: .8rem 4rem;
+    border-top: .1rem solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: .2rem;
+    /* margin-top: 1px; */
+}
+
+.copyright p {
+    color: #333;
+    font-size: 1.4rem;
+}
+
+.copyright a {
+    color: #34d2fa;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+@media(max-width:998px) {
+    html {
+        font-size: 50%;
+    }
+
+    header,
+    header .sticky {
+        display: 10px 20px;
+    }
+
+    header .navigation {
+        display: none;
+    }
+
+    header .navigation.active {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 60px;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: #fff;
+        line-height: 50px;
+
+    }
+
+    header .navigation li {
+        margin-left: 0;
+
+    }
+
+    header .navigation li a {
+        /* text-decoration: none; */
+        color: rgb(0, 0, 0);
+        font-weight: 500;
+        font-size: 2.3rem;
+
+    }
+
+
+    .menuToggle {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background: url(menu.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .menuToggle.active {
+        background: url(close.png);
+        background-size: 25px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    header.sticky .menuToggle {
+        filter: invert(1);
+    }
+}
+
+@media(max-width:768px) {
+    html {
+        font-size: 40%;
+    }
+
+    footer .contactform {
+        padding: 7.5rem 5rem;
+        background: rgb(240, 241, 241);
+        box-shadow: 0 1.5rem 5rem rgb(0 0 0 / 10%);
+        max-width: 50rem;
+        margin-top: 5rem;
+        margin-left: 34rem;
+        margin-right: 19rem;
+        border-radius: 1rem;
+        /* align-items: center; */
+    }
+}
+
+@media(max-width:544px) {
+    html {
+        font-size: 37%;
+    }
+
+    footer .contactform {
+        padding: 7.5rem 5rem;
+        background: rgb(240, 241, 241);
+        box-shadow: 0 1.5rem 5rem rgb(0 0 0 / 10%);
+        max-width: 50rem;
+        margin-top: 5rem;
+        margin-left: 24rem;
+        margin-right: 12rem;
+        border-radius: 1rem;
+        /* align-items: center; */
+    }
+}
+
+@media(max-width:375px) {
+    html {
+        font-size: 34%;
+    }
+
+    footer .contactform {
+        padding: 7.5rem 5rem;
+        background: rgb(240, 241, 241);
+        box-shadow: 0 1.5rem 5rem rgb(0 0 0 / 10%);
+        max-width: 50rem;
+        margin-top: 5rem;
+        margin-left: 12rem;
+        margin-right: 12rem;
+        border-radius: 1rem;
+
+    }
+}
