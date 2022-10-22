@@ -1,0 +1,2 @@
+SIMPLE STATIC WEBSITE MADE TO GATHER BASIC INFO ON GAME OF THRONES 
+[CLICK HERE TO ACCESS IT](https://targithu.github.io/silicon_maze_wiki/)
