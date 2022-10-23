@@ -65,20 +65,27 @@ NOTE ⚠ : Dont push non working projects we will thoroughly check.
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/targithu">
+            <img src="https://avatars.githubusercontent.com/u/101446457?v=4" width="100;" alt="targithu"/>
+            <br />
+            <sub><b>Tarun S Hegde</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/mayank-del">
             <img src="https://avatars.githubusercontent.com/u/82238106?v=4" width="100;" alt="mayank-del"/>
             <br />
             <sub><b>Mayank-del</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/Anuragsurya318">
             <img src="https://avatars.githubusercontent.com/u/91601354?v=4" width="100;" alt="Anuragsurya318"/>
             <br />
             <sub><b>Anuragsurya318</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/Yatndeep">
             <img src="https://avatars.githubusercontent.com/u/82487351?v=4" width="100;" alt="Yatndeep"/>
@@ -94,6 +101,13 @@ NOTE ⚠ : Dont push non working projects we will thoroughly check.
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/AnushkaSingh91">
+            <img src="https://avatars.githubusercontent.com/u/101503258?v=4" width="100;" alt="AnushkaSingh91"/>
+            <br />
+            <sub><b>Null</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/RaginaPhalangae">
             <img src="https://avatars.githubusercontent.com/u/115471842?v=4" width="100;" alt="RaginaPhalangae"/>
             <br />
@@ -106,7 +120,8 @@ NOTE ⚠ : Dont push non working projects we will thoroughly check.
             <br />
             <sub><b>ELVIN Pero</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/Aman-kinger">
             <img src="https://avatars.githubusercontent.com/u/73296791?v=4" width="100;" alt="Aman-kinger"/>
@@ -114,14 +129,6 @@ NOTE ⚠ : Dont push non working projects we will thoroughly check.
             <sub><b>Aman-kinger</b></sub>
         </a>
     </td>
-    <td align="center">
-        <a href="https://github.com/AnushkaSingh91">
-            <img src="https://avatars.githubusercontent.com/u/101503258?v=4" width="100;" alt="AnushkaSingh91"/>
-            <br />
-            <sub><b>Null</b></sub>
-        </a>
-    </td></tr>
-<tr>
     <td align="center">
         <a href="https://github.com/Deepanshu1008">
             <img src="https://avatars.githubusercontent.com/u/89475845?v=4" width="100;" alt="Deepanshu1008"/>
@@ -156,15 +163,15 @@ NOTE ⚠ : Dont push non working projects we will thoroughly check.
             <br />
             <sub><b>Sukhman Singh</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/ajaygitt">
             <img src="https://avatars.githubusercontent.com/u/76237868?v=4" width="100;" alt="ajaygitt"/>
             <br />
             <sub><b>Ajay Pradeep</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/Akshat2Jain">
             <img src="https://avatars.githubusercontent.com/u/101265586?v=4" width="100;" alt="Akshat2Jain"/>
